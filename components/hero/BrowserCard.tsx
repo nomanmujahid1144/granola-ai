@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Card, CardContent, CardHeader } from "../ui/card";
 import { BrowserCircles } from "./BrowserCircles";
-import { AudioControls } from "./AudioControler";
 import { ReactNode } from "react";
 import { StaticImageData } from "next/image";
 

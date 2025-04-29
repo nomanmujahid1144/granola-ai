@@ -15,7 +15,7 @@ const GranolaHomepage = () => {
         <section className="relative flex flex-col justify-center items-center gap-4 pb-24 w-full">
             {/* Background Gradient */}
             <div className='absolute hero-gradient inset-0 overflow-visible z[-1]' />
-                        
+
             <div className='flex flex-col gap-4 justify-center items-center px-6 pt-28 pb-12 lg:pb-16 lg:gap-8 md:pt-40 lg:pt-40'>
                 
                 <Button variant="outline" className="px-3 py-1.5 font-medium rounded-full border bg-transparent text-primary hover:bg-neutral-100 z-10 transition-colors flex gap-1 items-center">
@@ -55,7 +55,7 @@ const GranolaHomepage = () => {
                         <span>Join the Windows waitlist</span>
                     </Link>
                     <p className="mt-4 max-w-xs text-sm font-normal text-center opacity-60 text-primary-primary">
-                        Granola is Mac-only for now. We can let you know when it's ready for Windows
+                        Granola is Mac-only for now. We can let you know when it&apos;s ready for Windows
                     </p>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import Link from "next/link";
 import logo from '../public/assets/logo.svg';
 import windows from '../public/assets/hero/windows.svg';
 import { Button } from "./ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import {
     Sheet,
     SheetContent,
@@ -69,7 +69,7 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                
+
                 <div className="flex items-center md:block">
                     <Button className={`select-none flex items-center font-medium transition-all py-1.5 rounded-full 
                             flex-none px-3 ml-1 bg-transparent text-black cursor-pointer 
